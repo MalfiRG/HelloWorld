@@ -12,5 +12,7 @@ public class FirstProgram {
             Co sie wydarzyło w momencie odpalenia programu
                 -kod z klasy  FirstProgram został przetłumaczony na FirstProgram.class
          * */
+
+
     }
 }
