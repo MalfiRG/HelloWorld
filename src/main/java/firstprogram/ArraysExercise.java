@@ -17,6 +17,7 @@ public class ArraysExercise {
 
 
         //Następnie zawartość array1 jest kopiowana do joinedArray w pętli for,
+        //i to jest numer indeksu o wartosci 1
         for (int i = 0; i < array1.length; i++) {
             jointArray[i] = array1[i];
         }
