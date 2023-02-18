@@ -36,7 +36,7 @@ public class Loops {
             i++;
         }
         System.out.println("wartość i: "+i);
-        int i = 3;
+        i = 3;
         do {
             System.out.println("Początek");
             System.out.println("Nie " +i--);
@@ -46,6 +46,21 @@ public class Loops {
         * Warunke będzie sprawdzony po tym, jak pętla wykona sie jeszcze raz*/
 
         System.out.println("wartość i: "+i);
+
+        // instrukcje break i continue
+        for (int k = 0; k < 5; k++) {
+            if (k == 1 || k == 2) {
+                continue;
+            }
+            System.out.println("Continue " + k);
+        }
+        // instrukcja break
+        for (int k = 0; k < 5; k++) {
+            if (k == 1 || k == 2) {
+                break;
+            }
+            System.out.println("Break " + k);
+        }
 
 
 
