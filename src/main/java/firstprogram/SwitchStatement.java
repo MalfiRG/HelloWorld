@@ -65,6 +65,36 @@ public class SwitchStatement {
                 * */
 
 
+
+
+        }
+
+        /*Zad1*Napisz program, który przyjmuje od uzytkownika liczbe od 1 do 5 i wypisze ocenę słowną na ekranie
+        * */
+        System.out.println("Podaj ocenę");
+        int ocena = scanner.nextInt();
+        switch (ocena) {
+            case 1:
+                System.out.println("Niedostateczny");
+//                może być tutaj więcej kodu
+                break;
+            case 2:
+                System.out.println("Dopuszczający");
+                break;
+            case 3:
+                System.out.println("dostateczny");
+                break;
+            case 4:
+                System.out.println("dobry");
+                break;
+            case 5:
+                System.out.println("Bardzo dobry");
+                break;
+            case 6:
+                System.out.println("Celujący");
+                break;
+            default:
+                System.out.println("Nieprawidłowa ocena");
         }
     }
 }
