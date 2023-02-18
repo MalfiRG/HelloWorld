@@ -49,6 +49,17 @@ public class SwitchStatement {
             case 7 -> System.out.println("Niedziela.");
             default -> System.out.println("Nieznany dzien tygodnia!");
         }
-
+        String name = "Piotr";
+        switch (name) {
+            case "Jan":
+                System.out.println("Cześć Janek");
+                break;
+            case "Magda":
+                System.out.println("Cześć Magda");
+                break;
+            default:
+                System.out.println("Nie znam Cię");
+                /* default - zostanie wykonany dla DOWOLNEGO przypadku */
+        }
     }
 }
