@@ -22,7 +22,7 @@ public class Scopes {
 
          * */
         a = 2; // a zostało stworzone bezposrednio w main, mogę uzywać poza klamrą wyzej
-        b =2;  b stworzone wewnątrz bloku wyżej, niedostępne
+        //b =2;  b stworzone wewnątrz bloku wyżej, niedostępne
         int b = 2; //mogę storzyc
 
     }
