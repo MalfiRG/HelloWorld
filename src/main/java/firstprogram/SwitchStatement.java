@@ -59,7 +59,12 @@ public class SwitchStatement {
                 break;
             default:
                 System.out.println("Nie znam Cię");
-                /* default - zostanie wykonany dla DOWOLNEGO przypadku */
+                /* default to jest taki else, zostnaie do pasowany do każdje innej wartości.
+                *Niż te zdeifniowane powyzej.
+                *Wystepuje zawsze na końcu
+                * */
+
+
         }
     }
 }
