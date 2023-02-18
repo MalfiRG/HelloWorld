@@ -5,9 +5,15 @@ public class Homework {
         /*Zad1
         * Zadeklaruj i zainicjuj zmienną typu boolean o nazwie "isRaining" i przypisz wartość true lub false.*/
         boolean isRaining = true;
-        isRaining = true;
         System.out.println(isRaining);
 
+//        Rozwiązanie alternatywne
+
+        if (isRaining) {
+            System.out.println("It's raining today. Remember to bring an umbrella!");
+        } else {
+            System.out.println("It's not raining today. No need to bring an umbrella.");
+        }
 
         /*zad2
         * Zadeklaruj i zainicjuj zmienną typu integer o nazwie "numOfStudents" i przypisz wartość wybraną przez ciebie.*/
@@ -29,7 +35,7 @@ public class Homework {
 
         /*zad5
          * Zadeklaruj i zainicjuj zmienną typu string o nazwie "studentName" i przypisz wartość swojego imienia.*/
-        String myName = new String("Piotr");
+        String myName = "Piotr";
         System.out.println(myName);
 
 
@@ -49,8 +55,8 @@ public class Homework {
         * Na koniec zadeklaruj trzecią zmienną typu float o nazwie "finalPrice" i przypisz jej wartość "price" minus wartość rabatu.*/
 
         float price = 5500f;
-        float discount = 0.15f;
-        float finalPrice = (price*(1-discount));
+        float discount = 0.15f; // 20% rabatu
+        float finalPrice = (price*(1-discount)); // cena końcowa po uwzględnieniu rabatu
         System.out.println(finalPrice);
 
 
